@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"href="http://127.0.0.1:5500/va.html">
+  <title> Vaibhav's Website</title>
+  
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+    header {
+
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px 5px;
+      text-align: center;
+    }
+    nav {
+      background-color:black;
+        padding: 10px;
+        text-align: center;
+    
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      
+      border-radius: 4px;
+    }
+    .about {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    
+    footer {
+      text-align: center;
+      background-color: #ddd;
+      padding: 6px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    .tr{
+      border: 2px solid black;
+      border-radius: 10px;
+      margin: 20px auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+<header>
+
+<h1>Welcome to Vaibhav's Website</h1>
+    <p>Explore | Learn | Connect</p>
+  </header>
+
+  <nav >
+    <a href="va.html">Home</a>
+    <a href="index.html">About</a>
+    <a href="tt.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm Vaibhav and my brother name is lakshya</p>
+    <h2>Ancient usage</h2>
+    <p>
+         The English word theory derives from a technical term in philosophy in Ancient Greek. As an everyday word, theoria, θεωρία, meant "looking at, viewing, beholding", but in more technical contexts it came to refer to contemplative or speculative understandings of natural things, such as those of natural philosophers, as opposed to more practical ways of knowing things, like that of skilled orators or artisans.[b] English-speakers have used the word theory since at least the late 16th century.[7] Modern uses of the word theory derive from the original definition, but have taken on new shades of meaning.
+ </p>
+ <img src="C:\Users\pc\Downloads\ancientjpg_1733111191702.webpC:\Users\pc\Downloads\ancientjpg_1733111191702.webp" alt="Ancient Greek philosophers" style="width:100%; height:auto; border-radius:10px;">
+    <h2>Modern usage</h2>
+    <p>
+        In modern English, the word theory is used in a variety of ways. In everyday language, it can refer to a guess or conjecture about how something works, as in "I have a theory about why the sky is blue." In scientific contexts, it refers to a well-substantiated explanation of some aspect of the natural world that is based on a body of evidence and has stood up to repeated testing and scrutiny.
+    </p>
+  </section>
+
+  <footer>
+    <p> @2025 Vaibhav Kaira.</p>
+<button onclick="colorchange()"class="tr">change color
+  <script>
+    function colorchange() {
+      var colors = ["#FF5733", "#33FF57", "#3357FF", "#F0E68C", "#FF69B4"];
+      var randomColor = colors[Math.floor(Math.random() * colors.length)];
+      document.body.style.backgroundColor = randomColor;
+    }
+  </script>
+</button>
+  </footer>
+
+</body>
+</html>
